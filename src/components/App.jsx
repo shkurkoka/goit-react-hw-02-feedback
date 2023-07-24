@@ -17,7 +17,6 @@ export class App extends Component {
             ...prevState,
             [back]: prevState[back] + 1
         }));
-        // console.log(this.state[back]);
     }
 
     countTotalFeedback = () => {
